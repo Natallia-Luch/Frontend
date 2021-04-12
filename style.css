@@ -1,0 +1,47 @@
+
+.top, .process, .contacts, footer{
+    background-color: #443a8b;
+}
+.hello, .profile{
+    background-color: #f7f7f7;
+
+}
+.mywork, .myblog, .clients{ 
+    background-color: #fff;
+
+}
+.top{
+    height: 1225px;
+}
+.hello{
+    height: 1729px;
+}
+.mywork{
+    height: 3778px;
+}
+.process{
+    height: 2087px;
+}
+.myblog{
+    height: 2500px;
+}
+.profile{
+    height: 2057px;
+}
+.clients{
+    height: 1823px;
+}
+.contacts{
+    height: 2186px;
+}
+
+.hello, .process, .profile {
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0 88%);
+    margin-top: -12%;
+    
+    margin-bottom: -12%;
+}
+.contacts{
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0 100%);
+
+}
